@@ -1,0 +1,45 @@
+<% include ../partials/header%>
+
+<body>
+    <div class="container">
+        <form action="/Save" method="post"> <br>
+            <h1> [<%=products.ID%>] <%=products.Brand%></h1><br>
+            ID<br>
+            <div class="form-group">
+                <label for=""></label>
+                <input type="text" class="form-control" name="ID" id="ID" aria-describedby="helpId"
+                    value="<%=products.ID%>" readonly <small id="helpId" class="form-text text-muted">Help text</small>
+            </div>
+            Brand<br>
+            <div class="form-group">
+                <label for=""></label>
+                <input type="text" class="form-control" name="Brand" id="Brand" aria-describedby="helpId"
+                    value="<%=products.Brand%>" <small id="helpId" class="form-text text-muted">Help text</small>
+            </div>
+            Ram<br>
+            <div class="form-group">
+                <label for=""></label>
+                <input type="text" class="form-control" name="Ram" id="Ram" aria-describedby="helpId"
+                    value="<%=products.Ram%>" <small id="helpId" class="form-text text-muted">Help text</small>
+            </div>
+            Price<br>
+            <div class="form-group">
+                <label for=""></label>
+                <input type="text" class="form-control" name="price" id="price" aria-describedby="helpId"
+                    value="<%=products.price%>" <small id="helpId" class="form-text text-muted">Help text</small>
+            </div>
+            Create At<br>
+            <div class="form-group">
+                <label for=""></label>
+                <input type="text" class="form-control" name="create_at" id="create_at" aria-describedby="helpId"
+                    value="<%=products.create_at%>" <small id="helpId" class="form-text text-muted">Help text</small>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary btn-lg btn-success">Save</button>
+            <a class="btn btn-primary btn-lg" href="/products" role="button">Back to product List</a>
+        </form>
+
+    </div>
+</body>
+<% include ../partials/footer %>

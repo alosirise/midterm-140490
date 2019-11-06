@@ -1,0 +1,96 @@
+
+{
+    "_id" : ObjectId("5d9ea8c2dc0e4a0d133fbd78"),
+    "ID" : "1",
+    "Brand" : "LG",
+    "Ram" : "4",
+    "price" : "18000",
+    "create_at" : "CREATE AT DOCK23 The Fourth Floor Blue MediaCityUK Salford,"
+}
+
+{
+    "_id" : ObjectId("5d9ea8fcdc0e4a0d133fbd94"),
+    "ID" : "2",
+    "Brand" : "Vivo",
+    "Ram" : "8",
+    "price" : "12000",
+    "create_at" : "CREATE AT DOCK10 The Second Floor Blue MediaCityUK Salford,"
+}
+
+
+{
+    "_id" : ObjectId("5d9ea979dc0e4a0d133fbdc8"),
+    "ID" : "3",
+    "Brand" : "Sumsung",
+    "Ram" : "16",
+    "price" : "10600",
+    "create_at" : "CREATE AT DOCK18 The Second Floor Blue MediaCityUSA USA,"
+}
+
+
+{
+    "_id" : ObjectId("5d9ea9c1dc0e4a0d133fbde5"),
+    "ID" : "4",
+    "Brand" : "Huawaii",
+    "Ram" : "8",
+    "price" : "30000",
+    "create_at" : "CREATE AT DOCK1005 The Third Floor Blue CityUK Malasia,"
+}
+
+{
+    "_id" : ObjectId("5dc30c225d42f994400e62de"),
+    "ID" : "5",
+    "Brand" : "Sumsung",
+    "Ram" : "16",
+    "price" : "17500",
+    "create_at" : "CREATE AT DOCK15 The Fist Floor Red CityUK Canada,"
+}
+
+
+{
+    "_id" : ObjectId("5d9ea868dc0e4a0d133fbd55"),
+    "ID" : "6",
+    "Brand" : "LG",
+    "Ram" : "16",
+    "price" : "27500",
+    "create_at" : "CREATE AT DOCK15 The Fist Floor Red CityUK Russia,"
+}
+
+
+{
+    "_id" : ObjectId("5d9eaa0cdc0e4a0d133fbe0d"),
+    "ID" : "7",
+    "Brand" : "Appo",
+    "Ram" : "8",
+    "price" : "16500",
+    "create_at" : "CREATE AT DOCK15 The Fist Floor Red CityUK Canada,"
+}
+
+
+{
+    "_id" : ObjectId("5dc316175d42f994400e6790"),
+    "ID" : "8",
+    "Brand" : "IPhone",
+    "Ram" : "8",
+    "price" : "36500",
+    "create_at" : "CREATE AT DOCK15 The Fist Floor Red CityUK Japan,"
+}
+
+{
+    "_id" : ObjectId("5dc316395d42f994400e67b0"),
+    "ID" : "9",
+    "Brand" : "LG",
+    "Ram" : "4",
+    "price" : "20000",
+    "create_at" : "CREATE AT DOCK15 The Fist Floor Red CityUK China,"
+}
+
+
+{
+    "_id" : ObjectId("5dc316605d42f994400e67cf"),
+    "ID" : "10",
+    "Brand" : "IPhone",
+    "Ram" : "16",
+    "price" : "39000",
+    "create_at" : "CREATE AT DOCK15 The Fist Floor White London,"
+}

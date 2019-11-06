@@ -1,0 +1,51 @@
+<% include ../partials/header%>
+
+<body>
+    <div class="container">
+        <br>
+        <h1> [<%=products.ID%>] <%=products.Brand%></h1><br>
+        ID<br>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                placeholder="<%=products.ID%>" disabled>
+            <small id="helpId" class="form-text text-muted">Help text</small>
+        </div>
+        Brand<br>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                placeholder="<%=products.Brand%>" disabled>
+            <small id="helpId" class="form-text text-muted">Help text</small>
+        </div>
+        Ram<br>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                placeholder="<%=products.Ram%>" disabled>
+            <small id="helpId" class="form-text text-muted">Help text</small>
+        </div>
+        Price<br>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                placeholder="<%=products.price%>" disabled>
+            <small id="helpId" class="form-text text-muted">Help text</small>
+        </div>
+        Create At<br>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                placeholder=" <%=products.create_at%>" disabled>
+            <small id="helpId" class="form-text text-muted">Help text</small>
+        </div>
+
+
+
+
+        <a class="btn btn-primary btn-lg" href="/products" role="button">Back to product List</a>
+
+
+    </div>
+</body>
+<% include ../partials/footer %>
