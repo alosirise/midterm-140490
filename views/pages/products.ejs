@@ -1,6 +1,4 @@
 <% include ../partials/header %>
-
-
 <table class="table">
     <thead>
         <tr>
@@ -11,19 +9,18 @@
             <th>Create at </th>
             <th>Action
             <td>
-               
         </tr>
     </thead><br><br>
     <div style="text-align: center;">
-            <a class="btn btn-primary btn-lg btn-success"  href="productadd" role="button">
-                Add New Products</a>
-            </th></div><br>
+        <a class="btn btn-primary btn-lg btn-success" href="productadd" role="button">
+            Add New Products</a>
+        </th>
+    </div><br>
     <tbody>
         <% products.forEach(function(product) { %>
         <tr>
             <td scope="row">
                 <%= product.ID %></a></td>
-
             <td> <%= product.Brand %></td>
             <td> <%= product.Ram %> </td>
             <td> <%= product.price %> </td>
@@ -32,7 +29,7 @@
                 <a class="btn btn-primary btn-lg " href="products/detail/<%=product.ID%>" role="button">View</a>
                 <a class="btn btn-info btn-lg " href="products/edit/<%=product.ID%>" role="button">Edit</a>
 
-                <a class="btn btn-danger btn-lg"  role="button" href="" data-toggle="modal"
+                <a class="btn btn-danger btn-lg" role="button" href="" data-toggle="modal"
                     data-target="#confirm-delete<%=product.ID%>" href="">Delete</a>
 
                 <div class="modal fade" id="confirm-delete<%=product.ID%>" tabindex="-1" role="dialog"

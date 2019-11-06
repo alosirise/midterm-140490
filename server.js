@@ -1,19 +1,20 @@
+//setup Express
 var express = require('express');
 var app = express();
 
-
+//setup Mongo connection
 var mongo = require('mongodb');
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
 var options = { useUnifiedTopology: true, useNewUrlParser: true };
 
-///////////////////bodyParser/////////////////////////
+//bodyParser
 var bodyParser = require('body-parser')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-//////////////////////////////////////////////////////
-app.set('view engine', 'ejs');
 
+//set the view engine - ejs
+app.set('view engine', 'ejs');
 app.get('/', function (req, res) {
     res.render('pages/index');
 });
@@ -139,7 +140,7 @@ app.post('/Add', function (req, res) {
     MongoClient.connect(url, options, function (err, db) {
         if (err) throw err;
         var dbo = db.db("fullstack");
-        /////////Select target///////////////
+
         /////////Set value///////////////////
         var newvalues = {
                 ID: p_ID,
